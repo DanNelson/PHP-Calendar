@@ -1,0 +1,14 @@
+@CHARSET "UTF-8";
+html, body { width:100%; height:100%; }
+html { display:table; }
+body {display:table-cell; vertical-align:middle; }
+#center_align { margin:0 auto; }
+tr.tr_days{ height:35px; }
+tr.tr_normal{ height:150px;}
+td.td_days{ width:200px; text-align:center; font-weight:900;}
+td.td_days_normal{ vertical-align:top;}
+div.day_numbers{height:20px; background-color:#C2D1E5; text-align:right; font-weight:900;}
+div.post_days{height:20px; background-color:#DDDDDD; text-align:right; font-weight:900;}
+#under_table{padding-bottom:25px; }
+table { border-collapse:collapse; margin-left:auto; margin-right:auto; margin-top:auto; margin-bottom:auto; } 
+table, td, th { border:1px solid black; }
